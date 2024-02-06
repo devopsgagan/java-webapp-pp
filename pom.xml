@@ -151,8 +151,6 @@
 					<systemPropertyVariables>
 						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
 					</systemPropertyVariables>
-				</configuration>
-	<configuration>
     <container>
         <containerId>tomcat9x</containerId>
         <type>remote</type>
@@ -165,7 +163,6 @@
             <cargo.tomcat.manager.url>http://172.31.91.156:8080/manager/text
               </cargo.tomcat.manager.url>
         </properties>
-    </configuration>
 </configuration>
 			</plugin>
   </plugins>
